@@ -1,0 +1,14 @@
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/_7_4HD.GeneratedMSBuildEditorConfig.editorconfig
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/_7_4HD.AssemblyInfoInputs.cache
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/_7_4HD.AssemblyInfo.cs
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/_7_4HD.csproj.CoreCompileInputs.cache
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/bin/Debug/net8.0/_7_4HD
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/bin/Debug/net8.0/_7_4HD.deps.json
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/bin/Debug/net8.0/_7_4HD.runtimeconfig.json
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/bin/Debug/net8.0/_7_4HD.dll
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/bin/Debug/net8.0/_7_4HD.pdb
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/_7_4HD.dll
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/refint/_7_4HD.dll
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/_7_4HD.pdb
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/_7_4HD.genruntimeconfig.cache
+/Users/senu2k/Library/CloudStorage/OneDrive-DeakinUniversity/Deakin/SIT771 - OOP/7.4HD/obj/Debug/net8.0/ref/_7_4HD.dll
