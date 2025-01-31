@@ -753,4 +753,97 @@ namespace _7_4HD
                             }
                             catch (FormatException)
                             {
-                                Console.WriteLine("Invalid amount entered. Please enter a valid decimal numb
+                                Console.WriteLine("Invalid amount entered. Please enter a valid decimal number.");
+                            }
+                            catch (Exception ex)
+                            {
+                                Console.WriteLine("Error: " + ex.Message);
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Input cannot be null.");
+                        }
+                        break;
+
+                    case "3":
+                        Console.WriteLine("Exiting program...");
+                        return;
+
+                    default:
+                        // Handle invalid menu options
+                        Console.WriteLine("Invalid choice. Please try again.");
+                        break;
+                }
+            }
+        }
+    }
+}
+```
+
+---
+## ExchangeRateResponse.cs
+```csharp
+using System.Collections.Generic;
+using System.Text.Json.Serialization;
+
+public class ExchangeRateResponse
+{
+    // Map JSON properties of the API response to C# properties using attributes.
+
+    // Maps to base_code
+    [JsonPropertyName("base_code")]
+    public string? Base { get; set; }
+
+    // Maps to rates
+    [JsonPropertyName("rates")]
+    public Dictionary<string, decimal>? Rates { get; set; }
+
+    // Maps to result
+    [JsonPropertyName("result")]
+    public string? Result { get; set; }
+
+    // Maps to time_last_update_utc
+    [JsonPropertyName("time_last_update_utc")]
+    public string? LastUpdateUtc { get; set; }
+
+    // Maps to time_next_update_utc
+    [JsonPropertyName("time_next_update_utc")]
+    public string? NextUpdateUtc { get; set; }
+}
+
+```
+
+
+---
+## CurrencyConverter.cs
+
+``` csharp
+using System;
+using System.Collections.Generic;
+using System.Text.Json;
+using System.Threading.Tasks;
+
+namespace _7_4HD
+{
+    public class CurrencyConverter
+    {
+        // Store reference to exchange rate service
+        private readonly ExchangeRateService _rateService;
+
+        // Initialize exchange rate service in constructor
+        public CurrencyConverter(ExchangeRateService rateService)
+        {
+            _rateService = rateService;
+        }
+
+        // Get the exchange rate for the target currency and multiply the amount by the exchange rate to get the converted value.
+        public decimal Convert(decimal amount, string targetCurrency)
+        {
+            decimal rate = _rateService.GetRate(targetCurrency);
+            return amount * rate;
+        }
+    }
+}
+
+```
